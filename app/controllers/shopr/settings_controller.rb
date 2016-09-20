@@ -1,5 +1,5 @@
 module Shopr
-  class SettingsController < ApplicationController
+  class SettingsController < Shopr::ApplicationController
     before_action { @active_nav = :settings }
 
     def update
